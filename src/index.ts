@@ -8,7 +8,7 @@ import { IConcatFilesOptions } from "./interfaces/IConcatFilesOptions.js"
 import path from "path"
 
 // Vars
-const PackageData = JSON.parse(fs.readFileSync("../../package.json", "utf-8"))
+const PackageData = JSON.parse(fs.readFileSync(new URL("../package.json", import.meta.url), "utf-8"))
 
 // Program Data
 program
