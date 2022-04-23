@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Dependencies
 import * as fs from "fs"
 import { program } from "commander"
