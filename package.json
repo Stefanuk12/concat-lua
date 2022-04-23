@@ -1,0 +1,36 @@
+{
+  "name": "concat-lua",
+  "version": "1.0.0",
+  "description": "Concatenates many lua files together, wrapped each one within a `do` block.",
+  "exports": "lib/index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefanuk12/concat-lua.git"
+  },
+  "keywords": [
+    "concat",
+    "concatenate",
+    "lua",
+    "files"
+  ],
+  "author": "Stefanuk12",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stefanuk12/concat-lua/issues"
+  },
+  "homepage": "https://github.com/Stefanuk12/concat-lua#readme",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "indent-string": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25"
+  }
+}
