@@ -1,6 +1,6 @@
 {
   "name": "concat-lua",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Concatenates many lua files together, wrapped each one within a `do` block.",
   "exports": "./lib/index.js",
   "type": "module",
